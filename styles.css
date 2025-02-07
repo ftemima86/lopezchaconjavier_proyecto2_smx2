@@ -1,14 +1,11 @@
 body {
     margin: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'SF Pro Display', sans-serif;
     max-width: 1300px;
     margin: auto;
 }
 
-.separación {
-    margin-bottom: 50px;
-}
 
 /* ------------ NAV SECTION ------------- */
 
@@ -68,6 +65,10 @@ body {
     list-style: none;
 }
 
+.separación_nav {
+    margin-bottom: 50px;
+}
+
 /* ---------- END NAV SECTION ------------- */
 
 
@@ -110,13 +111,15 @@ body {
 }
 /* ------------ END NAV MEDIA ------------- */
 
+/* ------------- HEADER SECTION -------------- */
+
 header {
     margin: auto;
 }
 
 h1 {
     font-size: 4.5em;
-    font-weight: 300;
+    font-weight: 500;
     line-height: 1.4;
 }
 
@@ -192,4 +195,76 @@ h1 {
 .imagen__header {
     max-width: 100%;
     margin: 20px 0;
+}
+
+/* --------- END HEADER SECTION ---------- */
+
+/* ----------- MAIN SECTION ---------------- */
+
+.main__primera-secion {
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+}
+
+.main__primera-seción_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.segundo--boton {
+    margin-top: 20px;
+}
+
+.main__flechas {
+    display: flex;
+    justify-content: end;
+    margin: 10px;
+    gap: 20px;
+}
+
+#fecha-atras {
+    color: #ddd;
+}
+
+.main__subtitulo {
+    font-size: 4em;
+    width: 30%;
+    font-weight: 100;
+    margin: 10px;
+    text-transform: uppercase;
+}
+
+.main__segunda-secion {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.main__segunda-secion_imagen {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+}
+
+.imagen--diferente {
+    object-position: 80%;
+}
+
+.tipo-coche {
+    color: #ccc;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.descripcion {
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.separación_main_primera-parte {
+    margin: 70px 0;
 }
