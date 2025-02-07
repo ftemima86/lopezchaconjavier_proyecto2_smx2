@@ -299,3 +299,10 @@ h1 {
 
 /* ------------- MAIN TERCERA PARTE ------------- */
 
+.main__secion-imagenes {
+    display: flex;
+}
+
+.main__secion-imagenes_parte {
+    width: 25%;
+}
