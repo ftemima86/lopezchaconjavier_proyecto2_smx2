@@ -236,13 +236,13 @@ h1 {
     text-transform: uppercase;
 }
 
-.main__segunda-secion {
+.main__secion-imagenes {
     display: flex;
     justify-content: space-between;
     margin: 20px 0;
 }
 
-.main__segunda-secion_imagen {
+.main__imagen {
     width: 300px;
     height: 300px;
     object-fit: cover;
@@ -265,6 +265,37 @@ h1 {
     text-transform: uppercase;
 }
 
-.separación_main_primera-parte {
-    margin: 70px 0;
+.separación__main {
+    margin: 50px 0;
 }
+
+/* ----------- MAIN SEGUNDA PARTE ------------- */
+
+.main_segunda-sesion {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+}
+
+.main_segunda-sesion_parrafo {
+    width: 210px;
+    text-align: justify;
+}
+
+.main_raya-segunda-sesion {
+    margin: 20px 0 40px 0;
+    transform: scaleY(2);
+}
+
+.main__segunda-secion_imagen {
+    width: 800px;
+}
+
+.tercer--boton {
+    margin: 30px;
+    margin-bottom: 30px;
+}
+
+/* ------------- MAIN TERCERA PARTE ------------- */
+
