@@ -22,13 +22,12 @@ hr {
 }
 
 .nav__logo {
-    margin-left: 20px;
-    font-weight: bolder;
     border: solid black 2px;
-    transform: scaleY(1.5);
-    font-family: 'Times New Roman', Times, serif;
-    margin: 10px;
-    margin-left: 0;
+    font-family: Bahn Pro Regular;
+    font-size: 30px;
+    height: fit-content;
+    width: 100px;
+    text-align: center;
 }
 
 .nav__list {
@@ -222,7 +221,6 @@ header {
 .main__primera-secion {
     display: flex;
     justify-content: space-between;
-    height: fit-content;
 }
 
 .main__primera-seción_div {
