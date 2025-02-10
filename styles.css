@@ -35,10 +35,11 @@ hr {
     display: flex;
     justify-content: space-around;
     gap: 10px;
-    width: 40%;
+    width: 50%;
     padding: 0;
     flex-wrap: wrap;
     margin: 10px;
+    font-size: 1.1em;
 }
 
 .nav__item {
@@ -46,7 +47,6 @@ hr {
     margin: auto;
     padding: 10px;
     transform: scale(.8);
-    font-weight: bold;
 }
 
 .nav__link {
@@ -64,6 +64,7 @@ hr {
     display: flex;
     padding: 20px;
     gap: 20px;
+    padding-right: 5px;
 }
 
 .nav__item2 {
@@ -122,15 +123,19 @@ header {
     margin: auto;
 }
 
-h1 {
-    font-size: 4.5em;
+.titulo {
+    font-size: 96px;
     font-weight: 500;
-    line-height: 1.4;
+    width: fit-content;
+    position: relative;
+    left: -5px;
 }
 
 .hedaer__parrafo-titulo {
     margin-bottom: 0;
     font-size: .8em;
+    position: relative;
+    top: 5px;
 }
 
 .header__container{
@@ -186,22 +191,28 @@ h1 {
 }
 
 .header__párrafo {
-    font-size: .8em;
+    font-size: .85em;
 }
 
 .boton {
     border-radius: 50px;
-    padding: 10px 25px;
+    padding: 8px 25px;
     height: fit-content;
     background-color: #fff;
     border: 1px solid #000;
     text-transform: uppercase;
-    font-weight: 600;
+    font-family: 'SF Pro Display';
+    font-size: 1em;
 }
 
 .imagen__header {
     max-width: 100%;
     margin: 20px 0;
+}
+
+.separacion_header {
+    margin: 10px 0;
+    margin-top: 45px;
 }
 
 /* --------- END HEADER SECTION ---------- */
@@ -276,7 +287,7 @@ h1 {
     text-transform: uppercase;
 }
 
-.separación__main {
+.separacion__main {
     margin: 50px 0;
 }
 
